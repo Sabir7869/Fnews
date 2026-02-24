@@ -1,0 +1,69 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.env
+
+# Java / Maven
+FakeNewsDetection/target/
+FakeNewsDetection/*.jar
+FakeNewsDetection/*.war
+FakeNewsDetection/*.class
+
+# Maven wrapper
+FakeNewsDetection/.mvn/
+!FakeNewsDetection/.mvn/wrapper/maven-wrapper.jar
+
+# Node.js / Next.js
+Frontend-( Fake-News-Detection )/fake-news-detector/node_modules/
+Frontend-( Fake-News-Detection )/fake-news-detector/.next/
+Frontend-( Fake-News-Detection )/fake-news-detector/out/
+Frontend-( Fake-News-Detection )/fake-news-detector/.pnp/
+Frontend-( Fake-News-Detection )/fake-news-detector/.pnp.js
+Frontend-( Fake-News-Detection )/fake-news-detector/.yarn/
+Frontend-( Fake-News-Detection )/fake-news-detector/yarn-error.log
+Frontend-( Fake-News-Detection )/fake-news-detector/npm-debug.log*
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+build/
+dist/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.bak
+*.tmp
+*.temp
